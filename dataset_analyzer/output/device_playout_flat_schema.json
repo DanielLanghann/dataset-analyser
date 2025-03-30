@@ -1,0 +1,42 @@
+{
+  "test_field": {
+    "types": {
+      "str": {
+        "count": 3,
+        "percentage": 100.0
+      }
+    },
+    "coverage": 100.0,
+    "example": "This is a test insertion"
+  },
+  "timestamp": {
+    "types": {
+      "Date": {
+        "count": 3,
+        "percentage": 100.0
+      }
+    },
+    "coverage": 100.0,
+    "example": "2025-03-13T13:41:46.103000"
+  },
+  "device_id": {
+    "types": {
+      "str": {
+        "count": 3,
+        "percentage": 100.0
+      }
+    },
+    "coverage": 100.0,
+    "example": "test-device-7edf3213-eba4-47d6-988a-a68457eb91cf"
+  },
+  "_id": {
+    "types": {
+      "ObjectId": {
+        "count": 3,
+        "percentage": 100.0
+      }
+    },
+    "coverage": 100.0,
+    "example": "67d2d28abd4e7e2b8b911ba7"
+  }
+}

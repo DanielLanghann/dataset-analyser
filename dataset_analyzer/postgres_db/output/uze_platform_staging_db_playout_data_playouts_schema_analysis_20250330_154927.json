@@ -1,0 +1,111 @@
+{
+    "columns": {
+        "_id": {
+            "data_type": "text",
+            "nullable": false,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "text",
+            "char_max_length": null
+        },
+        "campaign_id": {
+            "data_type": "character varying",
+            "nullable": true,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "varchar",
+            "char_max_length": 24
+        },
+        "line_item_id": {
+            "data_type": "character varying",
+            "nullable": true,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "varchar",
+            "char_max_length": 24
+        },
+        "customer_id": {
+            "data_type": "character varying",
+            "nullable": true,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "varchar",
+            "char_max_length": 24
+        },
+        "impressions": {
+            "data_type": "integer",
+            "nullable": true,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "int4",
+            "char_max_length": null
+        },
+        "media_url": {
+            "data_type": "text",
+            "nullable": true,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "text",
+            "char_max_length": null
+        },
+        "price_in_cent": {
+            "data_type": "numeric",
+            "nullable": true,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "numeric",
+            "char_max_length": null
+        },
+        "media_id": {
+            "data_type": "character varying",
+            "nullable": true,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "varchar",
+            "char_max_length": 24
+        },
+        "duration_in_sec": {
+            "data_type": "integer",
+            "nullable": true,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "int4",
+            "char_max_length": null
+        },
+        "confirmed_at": {
+            "data_type": "timestamp with time zone",
+            "nullable": true,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "timestamptz",
+            "char_max_length": null
+        },
+        "requested_at": {
+            "data_type": "timestamp with time zone",
+            "nullable": true,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "timestamptz",
+            "char_max_length": null
+        },
+        "location_raw": {
+            "data_type": "ARRAY",
+            "nullable": true,
+            "default": null,
+            "array_element_type": "numeric",
+            "udt_name": "_numeric",
+            "char_max_length": null
+        },
+        "location_h3_booking": {
+            "data_type": "text",
+            "nullable": true,
+            "default": null,
+            "array_element_type": null,
+            "udt_name": "text",
+            "char_max_length": null
+        }
+    },
+    "primary_key": [
+        "_id"
+    ]
+}

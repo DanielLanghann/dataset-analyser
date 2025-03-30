@@ -1,0 +1,86 @@
+{
+  "_id": {
+    "type": "ObjectId",
+    "coverage": 100.0,
+    "example": "67b82b17067a865051866311"
+  },
+  "confirmRejectLocation": {
+    "type": "Array(str)",
+    "coverage": 96.2,
+    "example": [
+      "801ffffffffffff"
+    ]
+  },
+  "confirmedAt": {
+    "type": "Date",
+    "coverage": 96.2,
+    "example": "2025-02-21T07:28:38.316000"
+  },
+  "confirmedContacts": {
+    "type": "int",
+    "coverage": 96.2,
+    "example": 0
+  },
+  "contacts": {
+    "type": "int",
+    "coverage": 100.0,
+    "example": 10
+  },
+  "cpm": {
+    "type": "int",
+    "coverage": 99.2,
+    "example": 350
+  },
+  "deviceId": {
+    "type": "str",
+    "coverage": 100.0,
+    "example": "6746e96c97873b5531231b9a"
+  },
+  "displayIndex": {
+    "type": "int",
+    "coverage": 100.0,
+    "example": 0
+  },
+  "durationInSeconds": {
+    "type": "int",
+    "coverage": 100.0,
+    "example": 10
+  },
+  "isDemoPlayout": {
+    "type": "bool",
+    "coverage": 0.8,
+    "example": true
+  },
+  "mediaUrl": {
+    "type": "str",
+    "coverage": 100.0,
+    "example": "https://storage.googleapis.com/cdn.uze-ads.eu/ads/images/ed8328e13495e2e3f5c560a168acb15a19dfd2e70f4385e9f43253844b030274.jpg"
+  },
+  "requestLocation": {
+    "type": "Array(str)",
+    "coverage": 100.0,
+    "example": [
+      "801ffffffffffff"
+    ]
+  },
+  "requestedAt": {
+    "type": "Date",
+    "coverage": 100.0,
+    "example": "2025-02-21T07:28:23.179000"
+  },
+  "trackedAt": {
+    "type": "Date",
+    "coverage": 95.4,
+    "example": "2025-02-21T07:28:38.426000"
+  },
+  "trackingUrl": {
+    "type": "str",
+    "coverage": 99.2,
+    "example": "http://ad-exchange.uze-platform.svc.cluster.local:8080/trackimpressions?contacts=1&provider=uze-eu&url=https%3A%2F%2Frtb.uze-ads.eu%2Frtb%2Fnotice%2Fbilling%2F67b82b158bbd812c1d093fd3%2F1%2F676121e79d9ced4e305a5c6f"
+  },
+  "updatedAt": {
+    "type": "Date",
+    "coverage": 96.2,
+    "example": "2025-02-21T07:28:38.469000"
+  }
+}

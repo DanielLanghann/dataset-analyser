@@ -1,0 +1,22 @@
+{
+  "_id": {
+    "type": "ObjectId",
+    "coverage": 100.0,
+    "example": "67d2d28abd4e7e2b8b911ba7"
+  },
+  "device_id": {
+    "type": "str",
+    "coverage": 100.0,
+    "example": "test-device-7edf3213-eba4-47d6-988a-a68457eb91cf"
+  },
+  "test_field": {
+    "type": "str",
+    "coverage": 100.0,
+    "example": "This is a test insertion"
+  },
+  "timestamp": {
+    "type": "Date",
+    "coverage": 100.0,
+    "example": "2025-03-13T13:41:46.103000"
+  }
+}
